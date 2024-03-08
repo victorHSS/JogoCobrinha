@@ -12,7 +12,7 @@ Placar::~Placar(){
 }
 
 void Placar::inicializa(){
-   numeros = load_bitmap("../imgs/numeros2.bmp",NULL);
+   numeros = load_bitmap("imgs/numeros2.bmp",NULL);
 }
 
 void Placar::setPontos(int pontos){

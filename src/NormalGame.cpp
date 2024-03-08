@@ -37,15 +37,15 @@ void NormalGame::inicializa(){
    passos        = 0;
    isFruta       = false;
    estado = START;
-   gameOver   = load_bitmap("../imgs/gameOver.bmp",NULL);
-   underScene = load_bitmap("../imgs/underGame.bmp",NULL);
-   start      = load_bitmap("../imgs/pressStart.bmp",NULL);
-   pausado    = load_bitmap("../imgs/pausa.bmp",NULL);
-   pegaFruta  = load_wav("../musicas/pegaFruta.wav");
-   perdeFruta = load_wav("../musicas/perdeFruta.wav");
-   morreu  = load_wav("../musicas/morreu.wav");
-   fundoMusical = load_midi("../musicas/fundoNormalGame.mid");
-   endGame = load_midi("../musicas/gameOver.mid");
+   gameOver   = load_bitmap("imgs/gameOver.bmp",NULL);
+   underScene = load_bitmap("imgs/underGame.bmp",NULL);
+   start      = load_bitmap("imgs/pressStart.bmp",NULL);
+   pausado    = load_bitmap("imgs/pausa.bmp",NULL);
+   pegaFruta  = load_wav("musicas/pegaFruta.wav");
+   perdeFruta = load_wav("musicas/perdeFruta.wav");
+   morreu  = load_wav("musicas/morreu.wav");
+   fundoMusical = load_midi("musicas/fundoNormalGame.mid");
+   endGame = load_midi("musicas/gameOver.mid");
 }
 
 void NormalGame::execute(){

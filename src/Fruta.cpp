@@ -14,7 +14,7 @@ Fruta::~Fruta(){
 
 void Fruta::setFruta(const char *type){
    if (fruta!=NULL) destroy_bitmap(fruta);
-   string local = "../imgs/frutas/";       
+   string local = "imgs/frutas/";       
    local = (local + type) + ".bmp";   
    fruta = load_bitmap(local.c_str(),NULL);
 }

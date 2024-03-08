@@ -16,12 +16,12 @@ void Apresentacao::release(){
 }
 
 void Apresentacao::inicializa(){
-   underScene = load_bitmap("../imgs/StartGame.bmp",NULL);
-   menu = load_bitmap("../imgs/menu.bmp",NULL);
-   seta = load_bitmap("../imgs/seta.bmp",NULL);
-   fundoMusical = load_midi("../musicas/startMusic.mid");
-   mudaSeta     = load_wav("../musicas/cursor.wav");
-   decisao      = load_wav("../musicas/decisao.wav");
+   underScene = load_bitmap("imgs/StartGame.bmp",NULL);
+   menu = load_bitmap("imgs/menu.bmp",NULL);
+   seta = load_bitmap("imgs/seta.bmp",NULL);
+   fundoMusical = load_midi("musicas/startMusic.mid");
+   mudaSeta     = load_wav("musicas/cursor.wav");
+   decisao      = load_wav("musicas/decisao.wav");
    play_midi(fundoMusical,1);
    posy = 0;
 }

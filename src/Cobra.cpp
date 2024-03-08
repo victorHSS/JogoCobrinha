@@ -4,20 +4,20 @@ Cobra::Cobra(){
    tam = 0;
    dir = DIREITA;
    pCabeca = pRabo = NULL;
-   bCabecaDireita  = load_bitmap("../imgs/cobra/cabecaCobraDireita.bmp",NULL);
-   bCabecaEsquerda = load_bitmap("../imgs/cobra/cabecaCobraEsquerda.bmp",NULL);
-   bCabecaCima     = load_bitmap("../imgs/cobra/cabecaCobraCima.bmp",NULL);
-   bCabecaBaixo    = load_bitmap("../imgs/cobra/cabecaCobraBaixo.bmp",NULL);
-   bRaboEsquerda   = load_bitmap("../imgs/cobra/raboCobraEsquerda.bmp",NULL);
-   bRaboDireita    = load_bitmap("../imgs/cobra/raboCobraDireita.bmp",NULL);
-   bRaboCima       = load_bitmap("../imgs/cobra/raboCobraCima.bmp",NULL);
-   bRaboBaixo      = load_bitmap("../imgs/cobra/raboCobraBaixo.bmp",NULL);
-   bCorpoHorizontal= load_bitmap("../imgs/cobra/corpoCobraHorizontal.bmp",NULL);
-   bCorpoVertical  = load_bitmap("../imgs/cobra/corpoCobraVertical.bmp",NULL);
-   bCorpoCurvaBD   = load_bitmap("../imgs/cobra/corpoCobraCurvaBD.bmp",NULL);
-   bCorpoCurvaCE   = load_bitmap("../imgs/cobra/corpoCobraCurvaCE.bmp",NULL);
-   bCorpoCurvaDC   = load_bitmap("../imgs/cobra/corpoCobraCurvaDC.bmp",NULL);
-   bCorpoCurvaEB   = load_bitmap("../imgs/cobra/corpoCobraCurvaEB.bmp",NULL);
+   bCabecaDireita  = load_bitmap("imgs/cobra/cabecaCobraDireita.bmp",NULL);
+   bCabecaEsquerda = load_bitmap("imgs/cobra/cabecaCobraEsquerda.bmp",NULL);
+   bCabecaCima     = load_bitmap("imgs/cobra/cabecaCobraCima.bmp",NULL);
+   bCabecaBaixo    = load_bitmap("imgs/cobra/cabecaCobraBaixo.bmp",NULL);
+   bRaboEsquerda   = load_bitmap("imgs/cobra/raboCobraEsquerda.bmp",NULL);
+   bRaboDireita    = load_bitmap("imgs/cobra/raboCobraDireita.bmp",NULL);
+   bRaboCima       = load_bitmap("imgs/cobra/raboCobraCima.bmp",NULL);
+   bRaboBaixo      = load_bitmap("imgs/cobra/raboCobraBaixo.bmp",NULL);
+   bCorpoHorizontal= load_bitmap("imgs/cobra/corpoCobraHorizontal.bmp",NULL);
+   bCorpoVertical  = load_bitmap("imgs/cobra/corpoCobraVertical.bmp",NULL);
+   bCorpoCurvaBD   = load_bitmap("imgs/cobra/corpoCobraCurvaBD.bmp",NULL);
+   bCorpoCurvaCE   = load_bitmap("imgs/cobra/corpoCobraCurvaCE.bmp",NULL);
+   bCorpoCurvaDC   = load_bitmap("imgs/cobra/corpoCobraCurvaDC.bmp",NULL);
+   bCorpoCurvaEB   = load_bitmap("imgs/cobra/corpoCobraCurvaEB.bmp",NULL);
    
 }
 
